@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a525f9d310d1db90730494f2c161c896 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a525f9d310d1db90730494f2c161c896" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a525f9d310d1db90730494f2c161c896 = L.map(
+                "map_a525f9d310d1db90730494f2c161c896",
+                {
+                    center: [60.39114184786341, 5.325779546502633],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_965f9538de36de28c54f5aba641e9494 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_965f9538de36de28c54f5aba641e9494.addTo(map_a525f9d310d1db90730494f2c161c896);
+        
+    
+            var marker_280f64c12db3b9c99b4a953249ea7c98 = L.marker(
+                [60.379685765470725, 5.3519936304809335],
+                {}
+            ).addTo(map_a525f9d310d1db90730494f2c161c896);
+        
+    
+            var icon_0f37ec5fc1fa97a0655c571a608a7273 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_280f64c12db3b9c99b4a953249ea7c98.setIcon(icon_0f37ec5fc1fa97a0655c571a608a7273);
+        
+    
+        var popup_dd6005cf0c451d3959b87b6a72edd492 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81cd556cdb3ff00f7aaf2dd61e6fb9f4 = $(`<div id="html_81cd556cdb3ff00f7aaf2dd61e6fb9f4" style="width: 100.0%; height: 100.0%;">Møllendalsplass  (14688)</div>`)[0];
+                popup_dd6005cf0c451d3959b87b6a72edd492.setContent(html_81cd556cdb3ff00f7aaf2dd61e6fb9f4);
+            
+        
+
+        marker_280f64c12db3b9c99b4a953249ea7c98.bindPopup(popup_dd6005cf0c451d3959b87b6a72edd492)
+        ;
+
+        
+    
+    
+            var marker_e51f17c5ba30722d5f32574592bc6568 = L.marker(
+                [60.396949224333255, 5.313494727727743],
+                {}
+            ).addTo(map_a525f9d310d1db90730494f2c161c896);
+        
+    
+            var icon_ab64f1f875521e636f38538a6cdd1da8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e51f17c5ba30722d5f32574592bc6568.setIcon(icon_ab64f1f875521e636f38538a6cdd1da8);
+        
+    
+        var popup_71759b4ffcf3ce7ac0fd087c9a68cc92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_447f784747b12875bff43dcd0ade12e3 = $(`<div id="html_447f784747b12875bff43dcd0ade12e3" style="width: 100.0%; height: 100.0%;">Nykirken  (12306)</div>`)[0];
+                popup_71759b4ffcf3ce7ac0fd087c9a68cc92.setContent(html_447f784747b12875bff43dcd0ade12e3);
+            
+        
+
+        marker_e51f17c5ba30722d5f32574592bc6568.bindPopup(popup_71759b4ffcf3ce7ac0fd087c9a68cc92)
+        ;
+
+        
+    
+    
+            var marker_fc984965d07d22c769179649e2f04834 = L.marker(
+                [60.38668149584837, 5.3309780770646],
+                {}
+            ).addTo(map_a525f9d310d1db90730494f2c161c896);
+        
+    
+            var icon_e4af6190794ea8238ceed59c4a52ff23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fc984965d07d22c769179649e2f04834.setIcon(icon_e4af6190794ea8238ceed59c4a52ff23);
+        
+    
+        var popup_596312716c53396dd47b229517dd0291 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7b81fe1342b18044c416cc499adc1b9 = $(`<div id="html_b7b81fe1342b18044c416cc499adc1b9" style="width: 100.0%; height: 100.0%;">St. Jakobs Plass  (12211)</div>`)[0];
+                popup_596312716c53396dd47b229517dd0291.setContent(html_b7b81fe1342b18044c416cc499adc1b9);
+            
+        
+
+        marker_fc984965d07d22c769179649e2f04834.bindPopup(popup_596312716c53396dd47b229517dd0291)
+        ;
+
+        
+    
+    
+            var marker_daf1ee790c0712040ece95ae5bbabf6f = L.marker(
+                [60.39291769029913, 5.323669092809325],
+                {}
+            ).addTo(map_a525f9d310d1db90730494f2c161c896);
+        
+    
+            var icon_ecedc59409b2fb7d134f4dd41aedbed6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_daf1ee790c0712040ece95ae5bbabf6f.setIcon(icon_ecedc59409b2fb7d134f4dd41aedbed6);
+        
+    
+        var popup_b35f215e6b1938789750ca7b4a4a6891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdaebe6fe61e3fc4957e90c8cb76e4ba = $(`<div id="html_cdaebe6fe61e3fc4957e90c8cb76e4ba" style="width: 100.0%; height: 100.0%;">Torgallmenningen  (11983)</div>`)[0];
+                popup_b35f215e6b1938789750ca7b4a4a6891.setContent(html_cdaebe6fe61e3fc4957e90c8cb76e4ba);
+            
+        
+
+        marker_daf1ee790c0712040ece95ae5bbabf6f.bindPopup(popup_b35f215e6b1938789750ca7b4a4a6891)
+        ;
+
+        
+    
+    
+            var marker_41bc3a521ef34294369971efbca505de = L.marker(
+                [60.39947506336557, 5.308762204430565],
+                {}
+            ).addTo(map_a525f9d310d1db90730494f2c161c896);
+        
+    
+            var icon_e141c75bd06417d574d9d6434e0be87e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_41bc3a521ef34294369971efbca505de.setIcon(icon_e141c75bd06417d574d9d6434e0be87e);
+        
+    
+        var popup_099485ddab3c071bdaa6cf8ec6f6c5be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56f2ec9fa34d1722e9b2b41b52d7ac1f = $(`<div id="html_56f2ec9fa34d1722e9b2b41b52d7ac1f" style="width: 100.0%; height: 100.0%;">C. Sundts gate  (10010)</div>`)[0];
+                popup_099485ddab3c071bdaa6cf8ec6f6c5be.setContent(html_56f2ec9fa34d1722e9b2b41b52d7ac1f);
+            
+        
+
+        marker_41bc3a521ef34294369971efbca505de.bindPopup(popup_099485ddab3c071bdaa6cf8ec6f6c5be)
+        ;
+
+        
+    
+    
+            var layer_control_5f814ac31ab648894ac7d172ddb4d603_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_965f9538de36de28c54f5aba641e9494,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_5f814ac31ab648894ac7d172ddb4d603 = L.control.layers(
+                layer_control_5f814ac31ab648894ac7d172ddb4d603_layers.base_layers,
+                layer_control_5f814ac31ab648894ac7d172ddb4d603_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_a525f9d310d1db90730494f2c161c896);
+
+        
+    
+            var marker_f6874f7cc5705de86e4e18178e2ba359 = L.marker(
+                [60.39114184786341, 5.325779546502633],
+                {}
+            ).addTo(map_a525f9d310d1db90730494f2c161c896);
+        
+    
+            var div_icon_ae3fb8ef405cfe7a47d4328ff2cd375c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 14px; color: black;\"\u003e\u003cb\u003eTOP 5 DEPARTURE STATIONS OF BERGEN BIKE RENTAL IN 2023\u003c/b\u003e\u003c/div\u003e"});
+            marker_f6874f7cc5705de86e4e18178e2ba359.setIcon(div_icon_ae3fb8ef405cfe7a47d4328ff2cd375c);
+        
+</script>
+</html>
